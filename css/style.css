@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+  width: 100%;
+  min-height: 14.9vh;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  border-bottom: 0.1vh solid #000;
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgb(10, 0, 32);
+  text-transform: uppercase;
+  padding: 0 50px;
+}
+
+#menu a:hover {
+  color: rgb(228, 0, 0);
+}
+
+.novo {
+  display: grid;
+  place-items: left;
+}
+
+#imgg {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#imgg img {
+  width: 500px;
+}
+
+footer {
+  display: grid;
+  place-items: center;
+}
+
+#venda {
+  position: relative;
+  top: -20px;
+}
+
+#vend {
+  width: 90px;
+  top: -70px;
+}
+
+.intro {
+  display: grid;
+  width: 200px;
+  top: -20px;
+  position: relative;
+}
+
+.rodape {
+  display: grid;
+  align-items: center;
+}
+
+section {
+  display: grid;
+  align-items: center;
+}
+
+footer {
+  border-top: 1px solid black;
+  margin-top: 90px;
+  display: grid;
+  place-items: center;
+  min-height: 1vh;
+}
